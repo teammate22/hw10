@@ -1,0 +1,25 @@
+.main {
+  border: 1px solid rgba(175, 175, 175, 0.521);
+  display: flex;
+  justify-content: center;
+}
+.main .col1,
+.main .col2 {
+  width: 45%;
+}
+.main .col1 .head,
+.main .col2 .head {
+  text-align: center;
+}
+.main .col1 .block,
+.main .col2 .block {
+  width: 90%;
+  border: 1px solid rgba(175, 175, 175, 0.521);
+  padding: 10px;
+  display: flex;
+}
+.main .col1 .block img,
+.main .col2 .block img {
+  width: 30%;
+  height: 10%;
+}
