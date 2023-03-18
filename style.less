@@ -5,6 +5,7 @@
   justify-content: center;
   .col1, .col2{
     width: 45%;
+    margin-bottom: 10px;
     .head{
       text-align: center;
     }
@@ -13,11 +14,68 @@
       border: @border;
       padding: 10px;
       display: flex;
+      gap: 10px;
+      justify-content: space-between;
       img{
         width: 30%;
         height: 10%;
       }
-      
+      .block-mid{
+        display: flex;
+        flex-direction: column;
+      }
+      .block-top{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .date{
+          opacity: 0.8;
+          z-index: -1;
+        }
+        .header{
+          font-size: larger;
+        }
+      }
+    }
+    button{
+      width: 90%;
+      margin-top: 10px;
+    }
+  }
+  .col2{
+    .reward{
+      display: grid;
+      margin-bottom: 10px;
+      gap: 10px;
+      grid-template-columns: repeat(3,30%);
+      .icon{
+        display: flex;
+        grid-column: 2/3;
+        margin: auto;
+      }
+      .date{
+        grid-column: 3/4;
+        grid-row: 1/2;
+        .text;
+      }
+      .text{
+        margin: auto;
+        border: @border;
+        padding: 5px;
+        border-radius: 5px;
+      }
+      .text2{
+        .text;
+        grid-column: 3/4;
+        grid-row: 1/2;
+      }
+      .date2{
+        .text;
+      }
+    }
+    button{
+      width: 100%;
+      margin-top: 10px;
     }
   } 
 }
