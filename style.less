@@ -1,11 +1,16 @@
 @border: 1px solid rgba(175, 175, 175, 0.521);
+nav{
+  min-width: 735px;
+}
 .main{
   border: @border;
   display: flex;
   justify-content: center;
+  min-width: 735px;
   .col1, .col2{
     width: 45%;
     margin-bottom: 10px;
+    min-width: 355px;
     .head{
       text-align: center;
     }
@@ -53,16 +58,19 @@
         grid-column: 2/3;
         margin: auto;
       }
-      .date{
-        grid-column: 3/4;
-        grid-row: 1/2;
-        .text;
-      }
       .text{
+        width: 116px;
         margin: auto;
         border: @border;
         padding: 5px;
         border-radius: 5px;
+        text-align: center;
+      }
+      .date{
+        grid-column: 3/4;
+        grid-row: 1/2;
+        .text;
+        width: 87px;
       }
       .text2{
         .text;
@@ -71,6 +79,7 @@
       }
       .date2{
         .text;
+        width: 87px;
       }
     }
     button{

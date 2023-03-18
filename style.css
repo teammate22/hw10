@@ -1,12 +1,17 @@
+nav {
+  min-width: 735px;
+}
 .main {
   border: 1px solid rgba(175, 175, 175, 0.521);
   display: flex;
   justify-content: center;
+  min-width: 735px;
 }
 .main .col1,
 .main .col2 {
   width: 45%;
   margin-bottom: 10px;
+  min-width: 355px;
 }
 .main .col1 .head,
 .main .col2 .head {
@@ -62,33 +67,43 @@
   grid-column: 2/3;
   margin: auto;
 }
+.main .col2 .reward .text {
+  width: 116px;
+  margin: auto;
+  border: 1px solid rgba(175, 175, 175, 0.521);
+  padding: 5px;
+  border-radius: 5px;
+  text-align: center;
+}
 .main .col2 .reward .date {
   grid-column: 3/4;
   grid-row: 1/2;
+  width: 116px;
   margin: auto;
   border: 1px solid rgba(175, 175, 175, 0.521);
   padding: 5px;
   border-radius: 5px;
-}
-.main .col2 .reward .text {
-  margin: auto;
-  border: 1px solid rgba(175, 175, 175, 0.521);
-  padding: 5px;
-  border-radius: 5px;
+  text-align: center;
+  width: 87px;
 }
 .main .col2 .reward .text2 {
+  width: 116px;
   margin: auto;
   border: 1px solid rgba(175, 175, 175, 0.521);
   padding: 5px;
   border-radius: 5px;
+  text-align: center;
   grid-column: 3/4;
   grid-row: 1/2;
 }
 .main .col2 .reward .date2 {
+  width: 116px;
   margin: auto;
   border: 1px solid rgba(175, 175, 175, 0.521);
   padding: 5px;
   border-radius: 5px;
+  text-align: center;
+  width: 87px;
 }
 .main .col2 button {
   width: 100%;
